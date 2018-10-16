@@ -1,10 +1,38 @@
-.instructions,
-.example {
-  float: left;
+.chunk1, .chunk2, .chunk3 {
+  overflow: auto;
+  padding: 5%;
+  background-clip: border-box;
+}
+.chunk1 {
+  background-color: #ffffff;
+}
+.chunk2 {
+  background-color: #443E3E;
+}
+.chunk3 {
+  background: linear-gradient(#443E3E, #ffffff);
+}
+.text1, .text2, .text3 {
   width: 50%;
   box-sizing: border-box;
-  padding: 1%;
+  padding: 0px 10px;
+  font: .7em "arial";
 }
-.instructions img {
-  width: 32%;
+.text1, .text3 {
+  float: right;
+  text-align: left:
+}
+.text2 {
+  float: left;
+  text-align: left;
+}
+.image1, .image3 {
+  float: left;
+}
+
+.image2 {
+  float: right;
+}
+.text2, .text3 {
+  color: #ffffff;
 }
