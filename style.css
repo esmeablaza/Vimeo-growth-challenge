@@ -1,38 +1,27 @@
-.chunk1, .chunk2, .chunk3 {
+#chunk1, #chunk2, #chunk3 {
   overflow: auto;
-  padding: 5%;
+  padding: 10%;
   background-clip: border-box;
+  margin: auto;
 }
-.chunk1 {
+#chunk1 {
   background-color: #ffffff;
+  float: right;
 }
-.chunk2 {
-  background-color: #443E3E;
+
+#chunk2 {
+  background-color: #516B9A;
 }
-.chunk3 {
-  background: linear-gradient(#443E3E, #ffffff);
+#chunk3 {
+  background: linear-gradient(#516B9A, #ffffff);
 }
 .text1, .text2, .text3 {
   width: 50%;
   box-sizing: border-box;
-  padding: 0px 10px;
-  font: .7em "arial";
-}
-.text1, .text3 {
-  float: right;
-  text-align: left:
-}
-.text2 {
-  float: left;
-  text-align: left;
-}
-.image1, .image3 {
-  float: left;
+  padding: 5%;
+  font: 0.9em "arial";
 }
 
-.image2 {
-  float: right;
-}
 .text2, .text3 {
   color: #ffffff;
 }
